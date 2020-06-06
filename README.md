@@ -13,6 +13,9 @@
 [![HitCount](http://hits.dwyl.io/itning/shw_server.svg)](http://hits.dwyl.io/itning/shw_server)
 [![language](https://img.shields.io/badge/language-JAVA-green.svg)](https://github.com/itning/shw_server)
 
+
+**前后端分离项目，前端：[shw_client](https://github.com/itning/shw_client)**
+
 # 架构
 
 这是一个前后端分离项目，这里是后端工程。
@@ -32,6 +35,22 @@ Redis缓存支持，使用``Spring Boot Admin``监控APP状态。
 数据库：MySql
 
 缓存：Redis
+
+# 编译
+
+1. GIT克隆项目
+
+   ``git clone https://github.com/itning/shw_server.git``
+
+2. 更改分支（必须更改分支，否则默认是V2分支，V2分支是Spring Cloud版本。master分支是Spring Boot版本）
+
+   ``git checkout master``
+
+3. 安装本地依赖
+
+   请执行根目录下``install-aspose-dependency.bat``批处理文件
+
+4. Enjoy Project
 
 # 获取发布版本
 
